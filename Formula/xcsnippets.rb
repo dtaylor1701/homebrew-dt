@@ -5,7 +5,6 @@ class Xcsnippets < Formula
   homepage ""
   url "https://github.com/dtaylor1701/XCSnippets", :tag => "v1.0"
   head "https://github.com/dtaylor1701/XCSnippets.git"
-  sha256 "18eb9b05cd240fad942c98013b966804b20e3a1b3c4abf556d915d0c0a9f35dd"
   
   depends_on :xcode => ["10.0", :build]
 

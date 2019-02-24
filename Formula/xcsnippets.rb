@@ -3,22 +3,17 @@
 class Xcsnippets < Formula
   desc "XCode Snippet Manager"
   homepage ""
-  url "https://github.com/dtaylor1701/XCSnippets", :tag => "v1.0"
+  url "https://github.com/dtaylor1701/XCSnippets/archive/v1.0.tar.gz", version: "v1.0"
+  sha256 "aaf67cd5d10bb9767ed312ac59b24c6631a02d7c8c7a63e9765f100e39975b51"
   head "https://github.com/dtaylor1701/XCSnippets.git"
   
   depends_on :xcode => ["10.0", :build]
 
   def install
-      # ENV.deparallelize
-      system "./configure", "--disable-debug",
-      "--disable-dependency-tracking",
-      "--disable-silent-rules",
-      "--prefix=#{prefix}"
-      # system "cmake", ".", *std_cmake_args
-      system "make", "install"
+      system "make", "install", "prefix=#{prefix}"
   end
   
   test do
-  system "false"
-end
+      system "false"
+  end
 end

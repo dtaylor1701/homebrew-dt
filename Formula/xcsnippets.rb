@@ -3,8 +3,8 @@
 class Xcsnippets < Formula
   desc "XCode Snippet Manager"
   homepage "https://github.com/dtaylor1701/XCSnippets"
-  url "https://github.com/dtaylor1701/XCSnippets/archive/v1.0.0.tar.gz", version: "v1.0.0"
-  sha256 "ea2b9d338c7817a78144dfd57e84a89a365d5d369a5d13c3a871668abdc257d5"
+  url "https://github.com/dtaylor1701/XCSnippets/archive/v1.0.1.tar.gz", version: "v1.0.1"
+  sha256 "75c5b5c5afd3a8ecad20fa10e644468577f5893f8ce006cba281d4c59617c90a"
   head "https://github.com/dtaylor1701/XCSnippets.git"
   
   depends_on :xcode => ["10.0", :build]

@@ -3,7 +3,7 @@
 class Xcsnippets < Formula
   desc "Xcode Snippet Manager"
   homepage "https://github.com/dtaylor1701/XCSnippets"
-  url "https://github.com/dtaylor1701/XCSnippets/archive/v1.0.2.tar.gz", version: "v1.0.2"
+  url "https://github.com/dtaylor1701/XCSnippets/archive/v1.1.0.tar.gz", version: "v1.1.0"
   sha256 "b423b3991376365c94fd845d8d715377ea6cbedcf9c467930deda503bb6d6365"
   head "https://github.com/dtaylor1701/XCSnippets.git"
   

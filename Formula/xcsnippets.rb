@@ -4,7 +4,7 @@ class Xcsnippets < Formula
   desc "Xcode Snippet Manager"
   homepage "https://github.com/dtaylor1701/XCSnippets"
   url "https://github.com/dtaylor1701/XCSnippets/archive/v1.1.0.tar.gz", version: "v1.1.0"
-  sha256 "b57e1ac3097df596262ef70f63b9cd87ed42d00af3d38c6df7d00216b91e41f5"
+  sha256 "ffdad655f83d595b67fa75124f647ad549396080ef95b77117d4363a085fa023"
   head "https://github.com/dtaylor1701/XCSnippets.git"
   
   depends_on :xcode => ["10.2", :build]
